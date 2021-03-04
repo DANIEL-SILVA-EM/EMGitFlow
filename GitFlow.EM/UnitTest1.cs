@@ -10,5 +10,11 @@ namespace GitFlow.EM
         {
             Assert.Equal(4, 2 + 2);
         }
+
+        [Fact]
+        public void Soma_cinco_mais_cinco()
+        {
+            Assert.Equal(4, 5 + 5);
+        }
     }
 }
