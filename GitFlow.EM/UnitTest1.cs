@@ -16,5 +16,11 @@ namespace GitFlow.EM
         {
             Assert.Equal(5, 3 + 2);
         }
+
+        [Fact]
+        public void Soma_tres_mais_tres()
+        {
+            Assert.Equal(5, 3 + 3);
+        }
     }
 }
